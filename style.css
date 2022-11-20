@@ -77,6 +77,9 @@ main {
 }
 .sunglasses, .funny-glasses {
     width: 80px;
+    position: relative;
+    left: 13.25em;
+    bottom: 6.75em;
 }
 .monocle {
     width: 40px;
@@ -98,6 +101,9 @@ main {
 .bandana {
     width: 80px;
     transform: rotate(10deg);
+    position: absolute;
+    top: 11em;
+    left: 7em;
 }
 .fixed-corgi {
     margin-right: 1em;
@@ -107,6 +113,9 @@ main {
 }
 .pawprint {
     width: 45px;
+    position: fixed;
+    top: 2.75em;
+    left: 4em;
 }
 .sticky { 
     overflow: auto;
@@ -135,4 +144,10 @@ main {
     left: 133px;
     top: -10px;
     width: 40px;
+    z-index: 1;
+}
+
+.luna {
+    position: sticky;
+    left: 0em;
 }
